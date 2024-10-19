@@ -19,7 +19,7 @@
             </style>
         @endif
     </head>
-    <body class="font-sans antialiased dark:bg-[#351b1c] dark:text-white/50">
+    <body class="font-sans antialiased bg-[#351b1c] dark:bg-[#351b1c] dark:text-white/50">
         <div class="bg-gray-25 text-black/50 dark:bg-gray dark:text-white/50">
             {{-- <img id="background" class="absolute -left-20 top-0 max-w-[877px]" src="https://laravel.com/assets/img/welcome/background.svg" alt="Laravel background" /> --}}
             
@@ -113,10 +113,9 @@
                             </div>
                           </div>
                         </div>
-                        <section id="about-me" class="grid gap-6 lg:grid-cols-2 lg:gap-8 bg-gray-900/90">
-                            <div class="relative isolate overflow-hidden  py-24 sm:py-32">
-                                <div class="mx-auto max-w-7xl px-6 lg:px-8">
-                                  <div class="mx-auto max-w-2xl lg:mx-0">
+                        <section id="about-me" class="grid grid-cols-6 gap-8 lg:gap-8 bg-gray-900/90">
+                                <div class="py-24 sm:py-32 col-start-2 col-span-4">
+                                  <div class="mx-auto max-w-7xl px-6 lg:px-8">
                                     <h2 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">About me</h2>
                                     <p class="mt-6 text-lg leading-8 text-gray-300">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
                                   </div>
@@ -147,7 +146,6 @@
                                     </dl>
                                   </div>
                                 </div>
-                              </div>
                               
                         </section>
                         <section id="experience" class="grid grid-cols-6 gap-8 bg-[#eed4d5] ">
