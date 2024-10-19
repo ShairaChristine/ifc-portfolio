@@ -40,9 +40,9 @@
                     </button>
                   </div>
                   <div class="hidden lg:flex lg:gap-x-12">
-                    <a href="#" class="text-sm font-semibold leading-6 text-black dark:text-white">Product</a>
-                    <a href="#" class="text-sm font-semibold leading-6 text-black dark:text-white">Features</a>
-                    <a href="#" class="text-sm font-semibold leading-6 text-black dark:text-white">Marketplace</a>
+                    <a href="#about-me" class="text-sm font-semibold leading-6 text-black dark:text-white">About me</a>
+                    <a href="#experience" class="text-sm font-semibold leading-6 text-black dark:text-white">Experience</a>
+                    <a href="#tech" class="text-sm font-semibold leading-6 text-black dark:text-white">Technologies</a>
                     <a href="#" class="text-sm font-semibold leading-6 text-black dark:text-white">Company</a>
                   </div>
                   <div class="hidden lg:flex lg:flex-1 lg:justify-end">
@@ -69,9 +69,9 @@
                     <div class="mt-6 flow-root">
                       <div class="-my-6 divide-y divide-gray-500/10">
                         <div class="space-y-2 py-6">
-                          <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black dark:text-white hover:bg-gray-50">Product</a>
-                          <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black dark:text-white hover:bg-gray-50">Features</a>
-                          <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black dark:text-white hover:bg-gray-50">Marketplace</a>
+                          <a href="#about-me" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black dark:text-white hover:bg-gray-50">About Me</a>
+                          <a href="#experience" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black dark:text-white hover:bg-gray-50">Experience</a>
+                          <a href="#tech" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black dark:text-white hover:bg-gray-50">Technologies</a>
                           <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black dark:text-white hover:bg-gray-50">Company</a>
                         </div>
                         <div class="py-6">
