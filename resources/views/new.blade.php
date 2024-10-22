@@ -24,13 +24,15 @@
       <div class="text-container font-serif">
         
         <div class="text-left">
-          <p class="mt-1 text-balance text-2xl tracking-tight text-[#c8b7de]-900 sm:text-4xl">Website Developer</p>
-          <h1 class="text-balance text-4xl font-bold tracking-tight text-[#c8b7de]-900 sm:text-6xl">Shaira Christine Saldua</h1>
-          <p class="mt-1 text-lg leading-8 text-[#c8b7de]-600 w-10/12">A motivated and results-driven developer looking to refine expertise in JavaScript frameworks, with a focus on Vue.js, React.js, and advancing backend skills. <br> Seeking opportunities that challenge my technical abilities, while allowing for growth in full-stack development.
+          <p class="my-1 text-balance text-2xl tracking-tight text-[#c8b7de]-900 sm:text-3xl">Website Developer</p>
+          <h1 class="my-1 first:text-balance text-4xl font-bold tracking-tight text-[#c8b7de]-900 sm:text-6xl">Shaira Christine Saldua</h1>
+          <p class="mt-2 text-lg leading-8 text-[#c8b7de]-600 w-10/12">A motivated and results-driven developer looking to refine expertise in JavaScript frameworks, with a focus on Vue.js, React.js, and advancing backend skills. <br> Seeking opportunities that challenge my technical abilities, while allowing for growth in full-stack development.
           </p>
-          <div class="mt-10 flex items-center justify-left gap-x-6">
-            <a href="#" class="rounded-md bg-lime-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-lime-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a>
-            <a href="#" class="text-sm font-semibold leading-6 text-[#c8b7de]-900">Learn more <span aria-hidden="true">→</span></a>
+          <div class="mt-5 flex items-center justify-left gap-x-6">
+            <a href="#" class="rounded-full border px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-cyan-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">About me</a>
+            <a href="#" class="rounded-full border px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-cyan-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Experience</a>
+            <a href="#" class="rounded-full border px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-cyan-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Skills & Work</a>
+            <a href="#" class="rounded-full border px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-cyan-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Contact me<span aria-hidden="true">→</span></a>
           </div>
         </div>
       </div>
