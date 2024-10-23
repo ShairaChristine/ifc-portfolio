@@ -22,20 +22,56 @@
     <body class="font-sans antialiased">
       
       <div class="text-container font-serif">
-        
-        <div class="text-left">
-          <p class="my-1 text-balance text-2xl tracking-tight text-[#c8b7de]-900 sm:text-3xl">Website Developer</p>
-          <h1 class="my-1 first:text-balance text-4xl font-bold tracking-tight text-[#c8b7de]-900 sm:text-6xl">Shaira Christine Saldua</h1>
-          <p class="mt-2 text-lg leading-8 text-[#c8b7de]-600 w-10/12">A motivated and results-driven developer looking to refine expertise in JavaScript frameworks, with a focus on Vue.js, React.js, and advancing backend skills. <br> Seeking opportunities that challenge my technical abilities, while allowing for growth in full-stack development.
-          </p>
-          <div class="mt-5 flex items-center justify-left gap-x-6">
-            <a href="#" class="rounded-full border px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-cyan-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">About me</a>
-            <a href="#" class="rounded-full border px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-cyan-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Experience</a>
-            <a href="#" class="rounded-full border px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-cyan-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Skills & Work</a>
-            <a href="#" class="rounded-full border px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-cyan-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Contact me<span aria-hidden="true">→</span></a>
+        <section id="main" class="items-center content-center">
+          <div class="text-left px-8">
+            <p class="my-1 text-balance text-2xl tracking-tight text-[#c8b7de]-900 sm:text-3xl">Website Developer</p>
+            <h1 class="my-1 first:text-balance text-4xl font-bold tracking-tight text-[#c8b7de]-900 sm:text-6xl">Shaira Christine Saldua</h1>
+            <p class="mt-2 text-lg leading-8 text-[#c8b7de]-600 w-10/12">A motivated and results-driven developer looking to refine expertise in JavaScript frameworks, with a focus on Vue.js, React.js, and advancing backend skills. <br> Seeking opportunities that challenge my technical abilities, while allowing for growth in full-stack development.
+            </p>
+            <div class="mt-5 flex items-center justify-left gap-x-6">
+              <a href="#" class="rounded-full border px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-cyan-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">About me</a>
+              <a href="#" class="rounded-full border px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-cyan-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Experience</a>
+              <a href="#" class="rounded-full border px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-cyan-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Skills & Work</a>
+              <a href="#" class="rounded-full border px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-cyan-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Contact me<span aria-hidden="true">→</span></a>
+            </div>
           </div>
-        </div>
+        </section>
+
+
+        <section id="about-me">
+          <div class="container font-serif">
+            <div class="text-left px-8">
+              <p class="my-1 text-balance text-2xl tracking-tight text-[#c8b7de]-900 sm:text-3xl">About me</p>
+              <p class="mt-2 text-lg leading-8 text-[#c8b7de]-600 w-10/12">A motivated and results-driven developer looking to refine expertise in JavaScript frameworks, with a focus on Vue.js, React.js, and advancing backend skills. <br> Seeking opportunities that challenge my technical abilities, while allowing for growth in full-stack development.
+              </p>
+          </div>
+        </section>
+
+        <section id="experience">
+          <div class="container font-serif">
+            <div class="text-left px-8">
+              <p class="my-1 text-balance text-2xl tracking-tight text-[#c8b7de]-900 sm:text-3xl">Experience</p>
+          </div>
+        </section>
+
+        <section id="work">
+          <div class="container font-serif">
+            <div class="text-left px-8">
+              <p class="my-1 text-balance text-2xl tracking-tight text-[#c8b7de]-900 sm:text-3xl">Skills & Work</p>
+          </div>
+        </section>
+
+        <section id="contact-me">
+          <div class="container font-serif">
+            <div class="text-left px-8">
+              <p class="my-1 text-balance text-2xl tracking-tight text-[#c8b7de]-900 sm:text-3xl">Contact me</p>
+          </div>
+        </section>
       </div>
+
+
+      <div class="cursor-dot" style=" transform: translateX(-50%) translateY(-50%) translateZ(0px); left: 723px; top: 835px;"></div>
+      <div class="cursor" style="background-color: rgba(0, 0, 0, 0); border-style: solid; border-width: 0px; transform: translateX(-50%) translateY(-50%) scale(1) translateZ(0px); left: 1122px; top: 414px;"></div>
       <div class="gradient-bg">
         <svg xmlns="http://www.w3.org/2000/svg">
           <defs>
@@ -55,5 +91,6 @@
           <div class="interactive"></div>
         </div>
       </div>
+
     </body>
 </html>

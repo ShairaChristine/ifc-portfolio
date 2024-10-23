@@ -2,12 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body {
-    font-family: 'Dongle', sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
+html,
+body {
+  font-family: 'Dongle', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+section{
+  width: 100%;
+}
+#main{
+  min-height: 100vh;
+}
   .text-container {
     z-index: 100;
     width: 100vw;
@@ -23,6 +30,8 @@ html, body {
     opacity: 0.8;
     user-select: none;
     text-shadow: 1px 1px rgba(0,0,0,0.1);
+    flex-direction: column;
+    overflow: scroll;
   }
   
   :root {
@@ -193,3 +202,124 @@ html, body {
     background-color: aqua;
     
   }
+
+  /* ======= Cursor =======  */
+
+  /* .cursor,.cursor-dot {
+    position: fixed;
+    pointer-events: none;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    z-index: 999;
+    transform: translate(-50%,-50%);
+    -webkit-animation: .1s;
+    animation: .1s;
+    overflow: hidden
+}
+
+.cursor {
+    width: 24px;
+    height: 24px;
+    background-color: #606887;
+    border-color: #606887;
+    mix-blend-mode: multiply
+}
+
+.cursor body.dark {
+    background-color: #f3f2f9;
+    border-color: #f3f2f9;
+    mix-blend-mode: difference
+}
+
+.cursor-dot {
+    width: 4px;
+    height: 4px;
+    background-color: #606887;
+    -webkit-animation: .4s linear;
+    animation: .4s linear;
+    mix-blend-mode: multiply
+}
+
+.cursor-dot .body.dark,body.dark .cursor {
+    background-color: #f3f2f9;
+    mix-blend-mode: difference
+}
+
+body.dark .cursor {
+    border-color: #f3f2f9;
+}
+
+body.dark .cursor-dot {
+    background-color: #f3f2f9;
+    mix-blend-mode: difference;
+} */
+
+.cursor {
+  display: block;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 50%;
+  background: transparent;
+  pointer-events: none;
+  z-index: 111;
+  border: 2px solid #fff;
+  transition: all 0.2s ease-out;
+  animation: moveCursor1 .5s infinite alternate;
+  /* -webkit-animation: .4s linear;
+  animation: .4s linear; */
+}
+.cursor-dot {
+  position: fixed;
+  pointer-events: none;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  z-index: 999;
+  transform: translate(-50%,-50%);
+  overflow: hidden;
+  width: 4px;
+  height: 4px;
+  color: #fff;
+  background-color: #fff;
+  -webkit-animation: .4s linear;
+  animation: .4s linear;
+  mix-blend-mode: multiply;
+  animation: moveCursor1 .5s infinite alternate;
+  
+}
+
+.expand {
+  background: transparent;
+  animation: moveCursor2 .5s forwards;
+  border: 1px solid #fff;
+}
+
+@keyframes moveCursor1 {
+  from {
+      transform: scale(1);
+  }
+
+  to {
+      transform: scale(.8);
+  }
+}
+
+@keyframes moveCursor2 {
+  0% {
+      transform: scale(1);
+  }
+
+  50% {
+      transform: scale(2);
+  }
+
+  100% {
+      transform: scale(1);
+      opacity: 0;
+  }
+}
